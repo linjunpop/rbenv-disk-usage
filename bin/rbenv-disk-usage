@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "*** Ruby Versions ***"
+du -sh `rbenv root`/versions/*
+
